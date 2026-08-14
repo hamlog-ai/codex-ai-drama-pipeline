@@ -11,8 +11,15 @@ Codex marketplace package for Korean AI drama production. It bundles four skills
 
 Add this GitHub repository as a Codex marketplace, then install the plugin:
 
+Step 1: add the marketplace.
+
 ```bash
 codex plugin marketplace add hamlog-ai/codex-ai-drama-pipeline --ref main
+```
+
+Step 2: install the plugin.
+
+```bash
 codex plugin add hamlog-ai-drama-pipeline@hamlog-ai
 ```
 
@@ -22,8 +29,15 @@ Start a new Codex thread after installing so Codex can load the new skills.
 
 Refresh the marketplace snapshot and reinstall:
 
+Step 1: refresh the marketplace snapshot.
+
 ```bash
 codex plugin marketplace upgrade hamlog-ai
+```
+
+Step 2: reinstall the plugin.
+
+```bash
 codex plugin add hamlog-ai-drama-pipeline@hamlog-ai
 ```
 
