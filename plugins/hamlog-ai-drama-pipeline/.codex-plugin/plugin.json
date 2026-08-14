@@ -1,0 +1,40 @@
+{
+  "name": "hamlog-ai-drama-pipeline",
+  "version": "0.1.0",
+  "description": "Codex skills for Korean AI drama writing, Seedance prompts, consistent character video production, QC, and assembly.",
+  "author": {
+    "name": "Hamlog AI",
+    "url": "https://github.com/hamlog-ai"
+  },
+  "homepage": "https://github.com/hamlog-ai/codex-ai-drama-pipeline",
+  "repository": "https://github.com/hamlog-ai/codex-ai-drama-pipeline",
+  "license": "MIT",
+  "keywords": [
+    "hamlog",
+    "ai-drama",
+    "screenplay",
+    "seedance",
+    "video-production",
+    "korean"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Hamlog AI Drama Pipeline",
+    "shortDescription": "Write, prompt, render, QC, and assemble AI drama workflows.",
+    "longDescription": "Hamlog AI Drama Pipeline packages Codex skills for Korean screenplay development, Seedance 2.0 cut prompts, consistent multi-shot character video production, candidate boards, QC frame sheets, subtitles, and ffmpeg assembly.",
+    "developerName": "Hamlog AI",
+    "category": "Creative",
+    "capabilities": [
+      "Creative Writing",
+      "Video",
+      "Workflow"
+    ],
+    "websiteURL": "https://github.com/hamlog-ai/codex-ai-drama-pipeline",
+    "brandColor": "#E11D48",
+    "defaultPrompt": [
+      "Turn this story idea into a Korean drama treatment.",
+      "Convert this scene into a Seedance 2.0 cut prompt.",
+      "Plan a consistent-character AI short drama pipeline."
+    ]
+  }
+}

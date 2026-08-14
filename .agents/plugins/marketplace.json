@@ -1,0 +1,20 @@
+{
+  "name": "hamlog-ai",
+  "interface": {
+    "displayName": "Hamlog AI"
+  },
+  "plugins": [
+    {
+      "name": "hamlog-ai-drama-pipeline",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hamlog-ai-drama-pipeline"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creative"
+    }
+  ]
+}
